@@ -1,0 +1,15 @@
+function PlotFig5
+
+load('Fig5Data')
+
+LFPExampleTraces(ExampleData)
+
+MoveOffsetETA_LFPandAst(MoveETA)
+
+AstrocytesvsLowandHighFrequencyPower(LFPxcorr)
+
+AstrocyteEventTriggeredSpectrograms(AstrocyteTriggeredLFPData)
+
+AstrocyteEventTriggeredSpectrograms(AstrocyteTriggeredLFPData_withPrazosin)
+
+HB_AstrocyteTriggeredSpectrograms(AstrocyteTriggeredLFPRatios)
